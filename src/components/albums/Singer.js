@@ -16,7 +16,7 @@ const nCard = (val) => {
 const Singer = () => {
   return (
     <>
-      <h1 className="main-heading">Here are the top picks for you 🤩🤩</h1>
+//       <h1 className="main-heading">Here are the top picks for you 🤩🤩</h1>
       <div className="cards">{SData.map(nCard)}</div>
     </>
   );
