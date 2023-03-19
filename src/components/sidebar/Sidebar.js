@@ -13,7 +13,7 @@ const Sidebar = () => {
      <div className="sidebar-container">
       <img src="https://bootdey.com/img/Content/avatar/avatar7.png" className="profile-img" alt="profile" />
       <div>
-        <SidebarButton title="Feed" to="/feed" icon={<MdSpaceDashboard />} />
+        <SidebarButton title="Feed" to="/" icon={<MdSpaceDashboard />} />
         <SidebarButton title="Trending" to="/trending" icon={<FaGripfire />} />
         <SidebarButton title="Player" to="/player" icon={<FaPlay />} />
         <SidebarButton
@@ -21,7 +21,7 @@ const Sidebar = () => {
           to="/favorites"
           icon={<MdFavorite />}
         />
-        <SidebarButton title="Library" to="/" icon={<IoLibrary />} />
+        <SidebarButton title="Library" to="/library" icon={<IoLibrary />} />
       </div>
       <SidebarButton title="Sign In" to="/login" icon={<FaSignOutAlt />} />
     </div>
