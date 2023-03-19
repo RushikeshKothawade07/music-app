@@ -6,7 +6,7 @@ const Feed = () => {
     <>
 
     <div  className='screen-container'>
-      <h1>Feed</h1>
+     
       
     <Singer/>  
     </div>
